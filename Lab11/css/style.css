@@ -10,10 +10,10 @@ p, ul, li {
   font-size: 20px;
 }
 a:link {
-  color: teal;
+  color: purple;
 }
 a:visited {
-  color: purple;
+  color: teal;
 }
 a:hover {
   color: pink;
