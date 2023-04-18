@@ -1,7 +1,7 @@
 /* Practice CustomFonts Style Sheet */
 
 @font-face {
-    font-family: 'Alex Brush';
+    font-family: 'alex brush';
     src: url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
          url('../fonts/alexbrush-regular-webfont.woff2') format('woff2');
     font-weight: normal;
@@ -9,5 +9,5 @@
 }
 
 body{
-	font-family: 'Alex Brush', "Times New Roman", serif;
+	font-family: 'alex brush', "Times New Roman", serif;
 }
