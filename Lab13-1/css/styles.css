@@ -1,0 +1,8 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+.websafe{
+    font-family: 'Oswald', sans-serif;
+}
+.google {
+    font-family: 'Oswald', sans-serif;
+}
