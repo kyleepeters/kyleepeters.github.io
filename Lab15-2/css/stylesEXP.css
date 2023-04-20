@@ -1,0 +1,37 @@
+body {
+  background: mintcream;
+  color: #4debc3;
+  font-size: 1.35rem;
+}
+.picture {
+  width: 90%;
+  margin: 0 auto;
+}
+.picturebox {
+  background: #fce7e8;
+  border: 1px solid #000000;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 31%
+}
+.picturebox h3 {
+  margin: 10px;
+}
+.picturebox h1 {
+  background: #90b8e0;
+  color: #53eee6;
+  padding: 15px;
+}
+.picturebox a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #53eee6;
+  background: #90b8e0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  border-radius: 15px;
+  padding: 10px;
+}
