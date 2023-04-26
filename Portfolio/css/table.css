@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
+table {
+  width: 100%;
+  background-image: linear-gradient(#1e6b54, #60226d);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #ebe14d;
+  margin-bottom: 20px;
+  font-family: 'Play Fair', sans-serif;
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #73d3f0;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #330a81;
+}
+
+p {
+  font-family: 'Play Fair', sans-serif;
+}
