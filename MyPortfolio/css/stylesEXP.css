@@ -1,0 +1,54 @@
+/*Kai Peters
+April 25, 2023*/
+body {
+  background: rgb(66, 77, 71);
+  color: #ebe14d;
+  font-size: 1.35rem;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+div {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px solid #000000;
+  padding: 5px;
+  width: 20%;
+}
+.pictures {
+  width: 90%;
+  margin: 0 auto;
+}
+.pricebox {
+  background: #fce7e8;
+  border: 1px solid #000000;
+  margin: 10px;
+  text-align: center;
+  width: 31%;
+}
+.pricebox h3 {
+  margin: 10px;
+}
+.pricebox h1.pic {
+  background: #90b8e0;
+  color: #53eee6;
+  padding: 15px;
+}
+.pricebox a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #53eee6;
+  background: #90b8e0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  border-radius: 15px;
+  padding: 10px;
+}
+div.pricebox:nth-of-type(2) h1.pic,
+    div.pricebox:nth-of-type(2) a.button {
+        background: #e57ef3;
+    }
