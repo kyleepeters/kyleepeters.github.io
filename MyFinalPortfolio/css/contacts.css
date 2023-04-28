@@ -1,0 +1,20 @@
+/*Kai Peters
+April 25, 2023*/
+input {
+  font-size: 1.25rem;
+  padding: 5px;
+  border: 1px solid #000000;
+  transition: all 0.5s ease;
+}
+input:focus {
+  font-size: 1.35rem;
+  padding: 10px;
+  border: 2px solid #1a0664;
+  outline: none;
+}
+#checkcolors {
+  color: #7bfa49;
+}
+.text-area {
+  width: 100%;
+}

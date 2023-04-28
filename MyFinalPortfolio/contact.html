@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Kai Peters-->
+<!--Apr. 25, 2023-->
+  <html Lang="en">
+    <head>
+      <title>Contact</title>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Kai Peters software app designer Boise Idaho" />
+      <meta name="keywords" content="C# server-side HTML CSS3 client-side " />
+      <meta name="author" content="Kai Peters" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <link rel="stylesheet" type="text/css" href="css/contacts.css" />
+    </head>
+    <body>
+      <header>
+        <nav>
+          <a href="index.html"><img src="images/logo.png" class="addrightmargin" alt="Kai_Peters"></a>
+        </nav>
+        <h1>Contact Form</h1>
+      </header>
+      <main>
+        <form action="mailto:kaipeters@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+          <fieldset>
+          <legend>How do I contact you?</legend>
+              <div>
+                <label for="Company-Entry">Company: </label><input type="text" name="Your-Company" id="Company-Entry" placeholder="Name"/>
+              </div>
+              <div>
+                <label for="Contact-Entry">Person to Contact: </label><input type="text" name="Your-Contact" id="Contact-Entry" placeholder="Info"/>
+              </div>
+              <div>
+                <label for="email-entry">Email: </label><input type="email" name="email-address" id="email-entry" placeholder="E-mail" required/>
+              </div>
+              <div>
+                <label for="phone-number">Phone #: </label><input type="tel" name="your-phone" id="phone-number" placeholder="Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+              </div>
+          </fieldset>
+          <fieldset>
+              <div id="checkcolors">
+                <p>How did you find me?</p>
+                <input type="checkbox" name="LinkedIn" id="LinkedIn" value="LinkedIn" /><label for="LinkedIn">LinkedIn</label>
+                <input type="checkbox" name="Job-Fair" id="Job-Fair" value="Job-Fair" /><label for="Job-Fair">Job Fair</label>
+                <input type="checkbox" name="CWI-Corporate-Partner" id="CWI-Corporate-Partner" value="CWI-Corporate-Partner" /><label for="CWI-Corporate-Partner">CWI Corporate Partner</label>
+              </div>
+              <div>
+                <p>Message</p>
+                <textarea name="text-area"></textarea>
+              </div>
+          </fieldset>
+      <input type="submit" id="submit" value="Submit" class="btn">
+       </form>
+      </main>
+      <footer>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="images/iconmonstr-linkedin-5-240(1).png" alt="Linkedin_Pic"></a>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <a href="https://github.com/kyleepeters/kyleepeters.github.io" target="_blank"><img src="images/iconmonstr-github-5-240(1).png" alt="Github_pic"></a>
+      </footer>
+    </body>
+  </html>
