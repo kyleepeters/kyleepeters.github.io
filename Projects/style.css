@@ -1,0 +1,28 @@
+body {
+  background-color: aliceblue;
+}
+h1 {
+  color:darkblue;
+  text-align: center;
+  border-style: double;
+  border-color: blue;
+  border-radius: 15%;
+}
+main {
+  background-color: white;
+  text-align: center;
+}
+nav {
+  background-color: aquamarine;
+}
+li {
+  color: blue;
+  text-align: left;
+  width: 650px;
+}
+footer {
+  font-size: .75em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
